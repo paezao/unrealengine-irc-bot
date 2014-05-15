@@ -1,4 +1,4 @@
-unrealengine-irc-bot
+UnrealEngine IRC Bot
 ====================
 
-Freenode #unrealengine IRC Bot
+Joins us on #unrealengine @ freenode.org
