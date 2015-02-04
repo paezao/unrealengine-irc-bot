@@ -1,4 +1,4 @@
-class Cinch::ChannelAdmin
+class ChannelAdmin
   include Cinch::Plugin
 
   @owners = ["nkr"]
