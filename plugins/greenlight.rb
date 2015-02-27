@@ -2,6 +2,7 @@ class Greenlight
   include Cinch::Plugin
 
   @@projects = [
+    { name: "Spellsworn", url: "http://steamcommunity.com/sharedfiles/filedetails/?id=385795837", by: "Omberone" },
     { name: "Exodus", url: "http://steamcommunity.com/sharedfiles/filedetails/?id=264273221", by: "Bob_Gneu & ReqPro" }
   ]
 
