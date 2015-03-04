@@ -17,8 +17,7 @@ bot = Cinch::Bot.new do
   configure do |c|
     c.server = 'chat.freenode.org'
     c.password = config['password']
-    #c.channels = ['#unrealengine', '#netherdeep', '#ue4linux']
-    c.channels = ['#netherdeep']
+    c.channels = ['#unrealengine', '#netherdeep', '#ue4linux']
     c.nick = 'UnrealEngine'
     c.plugins.plugins = [ChannelAdmin, UnrealDocs, UESchool, OfficialStream, Greenlight, Streams]
   end
