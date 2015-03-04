@@ -1,7 +1,8 @@
 class ChannelAdmin
   include Cinch::Plugin
 
-  @owners = ["nkr"]
+  @@owners = ["nkr"]
+  @@admins = []
 
   match(/voice (.*)/,   method: :voice)
   match(/devoice (.*)/, method: :devoice)
@@ -10,12 +11,12 @@ class ChannelAdmin
 
   def is_owner?(user)
     return false unless user.authed?
-    @owners.include? user.to_s
+    @@owners.include? user.to_s
   end
 
   def is_admin?(user)
     return false unless user.authed?
-    @admins.include? user.to_s
+    @@admins.include? user.to_s
   end
 
   def voice(m, param)
