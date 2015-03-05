@@ -2,7 +2,8 @@ class Streams
   include Cinch::Plugin
 
   @@streams = [
-    "mdids"
+    "mdids",
+    "kirushuwassa"
   ]
 
   match "streams"
