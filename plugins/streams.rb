@@ -4,7 +4,8 @@ class Streams
   @@streams = [
     "mdids",
     "kirushuwassa",
-    "vertigooo666"
+    "vertigooo666",
+    "bobgneu"
   ]
 
   match "streams"
