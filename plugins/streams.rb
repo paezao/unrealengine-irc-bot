@@ -5,7 +5,11 @@ class Streams
     "mdids",
     "kirushuwassa",
     "vertigooo666",
-    "bobgneu"
+    "bobgneu",
+    "foxworksaerospace",
+    "aure20",
+    "ash1e",
+    "Daekesh"
   ]
 
   match "streams"
