@@ -9,7 +9,8 @@ class Streams
     "foxworksaerospace",
     "aure20",
     "ash1e",
-    "Daekesh"
+    "Daekesh",
+    "dncrush"
   ]
 
   match "streams"
