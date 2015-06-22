@@ -4,7 +4,8 @@ class Greenlight
   @@projects = [
     { name: "Spellsworn", url: "http://steamcommunity.com/sharedfiles/filedetails/?id=385795837", by: "Omberone" },
     { name: "Exodus", url: "http://steamcommunity.com/sharedfiles/filedetails/?id=264273221", by: "Bob_Gneu & ReqPro" },
-    { name: "Barrage", url: "http://steamcommunity.com//sharedfiles/filedetails/?id=414409258", by: "Daekesh" }
+    { name: "Barrage", url: "http://steamcommunity.com//sharedfiles/filedetails/?id=414409258", by: "Daekesh" },
+    { name: "Vortex", url: "http://steamcommunity.com/sharedfiles/filedetails/?id=424753403", by: "k8nn" }
   ]
 
   match "greenlight"
